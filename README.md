@@ -34,3 +34,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# アプリ名
+自己紹介カードアプリ
+
+## 概要
+Next.js・TypeScript・Tailwind CSSを使用した自己紹介カード表示アプリです。  
+名前・職業・自己紹介文をカード形式で表示します。
+
+## URL
+https://intro-card-app.vercel.app
+
+## 使用技術
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+
+## 機能
+- 名前、職業、自己紹介文を表示
+- コンポーネント分割（Header, ProfileCard, Footer）
+- Tailwind CSSによるデザイン
+
+## 学習ポイント
+- Next.jsの基本的なページ構成（App Router）
+- TypeScriptの型付け（string）
+- Tailwind CSSでのスタイリング
+- GitHubとVercelを使ったデプロイ手順
+
+## セットアップ方法
+```bash
+# リポジトリをクローン
+git clone https://github.com/ユーザー名/intro-card-app.git
+
+# ディレクトリに移動
+cd intro-card-app
+
+# パッケージインストール
+npm install
+
+# ローカル開発サーバー起動
+npm run dev
